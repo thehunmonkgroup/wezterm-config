@@ -19,6 +19,8 @@ config.color_scheme = 'Dracula (Official)'
 
 config.font = wezterm.font 'UbuntuMono Nerd Font'
 
+config.hide_tab_bar_if_only_one_tab = true
+config.switch_to_last_active_tab_when_closing_tab = true
 config.skip_close_confirmation_for_processes_named = { 'flatpak-spawn' }
 
 local action = wezterm.action
