@@ -23,6 +23,10 @@ config.hide_tab_bar_if_only_one_tab = true
 config.switch_to_last_active_tab_when_closing_tab = true
 config.skip_close_confirmation_for_processes_named = { 'flatpak-spawn' }
 
+-- How many lines of scrollback you want to retain per tab
+config.scrollback_lines = 10000
+config.audible_bell = 'Disabled'
+
 local action = wezterm.action
 config.keys = {
   {
