@@ -10,6 +10,8 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+config.check_for_updates = false
+
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
