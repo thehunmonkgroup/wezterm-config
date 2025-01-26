@@ -20,6 +20,7 @@ config.color_scheme = 'Dracula (Official)'
 --config.color_scheme = 'GruvboxDark'
 
 config.font = wezterm.font 'UbuntuMono Nerd Font'
+config.warn_about_missing_glyphs = false
 
 config.hide_tab_bar_if_only_one_tab = true
 config.switch_to_last_active_tab_when_closing_tab = true
