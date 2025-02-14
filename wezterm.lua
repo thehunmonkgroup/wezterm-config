@@ -15,9 +15,10 @@ config.check_for_updates = false
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
---config.color_scheme = 'Solarized (dark) (terminal.sexy)'
-config.color_scheme = 'Dracula (Official)'
---config.color_scheme = 'GruvboxDark'
+-- config.color_scheme = 'Solarized (dark) (terminal.sexy)'
+-- config.color_scheme = 'Dracula (Official)'
+-- config.color_scheme = 'GruvboxDark'
+config.color_scheme = "Catppuccin Mocha"
 
 config.font = wezterm.font 'UbuntuMono Nerd Font'
 config.warn_about_missing_glyphs = false
