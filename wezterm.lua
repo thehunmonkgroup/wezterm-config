@@ -63,6 +63,11 @@ config.keys = {
     mods = 'ALT',
     action = wezterm.action.PasteFrom 'Clipboard',
   },
+  {
+    key="Enter",
+    mods="SHIFT",
+    action=wezterm.action{SendString="\x1b\r"},
+  },
 }
 
 -- and finally, return the configuration to wezterm
